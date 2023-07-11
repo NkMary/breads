@@ -8,8 +8,6 @@ function Index ({breads, title})  {
         <div className="newButton">
           <a href="/breads/new"><button>Add a new bread</button></a>
         </div>
-        {/* This is a JSX comment. */}
-        {/* <p>I have {breads[0].name} bread!</p> */}
         <ul>
             {
               breads.map((bread, index)=> {
